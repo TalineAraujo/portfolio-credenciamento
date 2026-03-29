@@ -47,6 +47,17 @@ O projeto foi pensado para reduzir tarefas manuais, organizar dados e melhorar a
 Os dados apresentados neste projeto foram anonimizados para preservar a privacidade dos usuários.
 
 ---
+💡 Desafios e aprendizados
+
+Durante o desenvolvimento, enfrentei alguns desafios práticos que contribuíram muito para meu aprendizado:
+
+Ajustes na geração e envio do QR Code dentro do fluxo
+Tratamento de duplicidade de dados na planilha
+Organização da lógica para garantir que o check-in atualizasse corretamente os registros
+
+Esses pontos foram importantes para entender melhor integração entre ferramentas e tratamento de erros em automações reais
+
+---
 
 ## 🚀 Resultado
 Automação completa de credenciamento, reduzindo trabalho manual e permitindo controle de acesso em tempo real.
@@ -54,4 +65,5 @@ Automação completa de credenciamento, reduzindo trabalho manual e permitindo c
 ---
 
 ## 👩‍💻 Sobre mim
-Profissional em formação na área de tecnologia, com foco em automação e segurança da informação.
+Sou formada em Análise e Desenvolvimento de Sistemas e atualmente estou me especializando em Segurança da Informação
+Tenho interesse em automação de processos, integração entre sistemas e boas práticas de segurança, buscando sempre desenvolver soluções práticas que resolvam problemas reais.
