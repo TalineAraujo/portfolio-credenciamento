@@ -47,15 +47,16 @@ O projeto foi pensado para reduzir tarefas manuais, organizar dados e melhorar a
 Os dados apresentados neste projeto foram anonimizados para preservar a privacidade dos usuários.
 
 ---
-💡 Desafios e aprendizados
+## 💡 Desafios e aprendizados
 
-Durante o desenvolvimento, enfrentei alguns desafios práticos que contribuíram muito para meu aprendizado:
+Durante o desenvolvimento da automação, enfrentei alguns problemas práticos que exigiram análise e ajustes no fluxo:
 
-Ajustes na geração e envio do QR Code dentro do fluxo
-Tratamento de duplicidade de dados na planilha
-Organização da lógica para garantir que o check-in atualizasse corretamente os registros
+- Tive erros na geração e envio do QR Code, principalmente relacionados à configuração do nó e à forma como o link estava sendo tratado no e-mail
+- Enfrentei dificuldades para atualizar corretamente os dados na planilha, especialmente no uso do "append or update", que inicialmente não estava funcionando como esperado
+- Ajustei a lógica para evitar duplicidade de registros, garantindo que cada participante tivesse um identificador único
+- No fluxo de check-in, precisei organizar a validação para garantir que apenas registros existentes fossem atualizados corretamente
 
-Esses pontos foram importantes para entender melhor integração entre ferramentas e tratamento de erros em automações reais
+Esses desafios foram importantes para desenvolver um olhar mais analítico sobre automações, entender melhor o comportamento dos dados entre os nós e melhorar o tratamento de erros em fluxos reais.
 
 ---
 
